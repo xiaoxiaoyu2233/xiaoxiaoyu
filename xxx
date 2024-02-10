@@ -387,7 +387,7 @@ if game.Players.LocalPlayer.Name == "1145145pppppp" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "gaopenghui2193" then 
+if game.Players.LocalPlayer.Name == "" then 
 Whitelisted = true 
 end
 
@@ -2084,7 +2084,7 @@ end)
  
 DiamondBlock.MouseButton1Click:connect(function()
     for i=1, open_box.Text do --This number means that you'll get 100 gears (you can change this)
-        local library = loadstring(game:HttpGet('https://pastebin.com/raw/vPWzQEC8'))()
+    local library = loadstring(game:HttpGet('https://pastebin.com/raw/vPWzQEC8'))()
 local plr = game.Players.LocalPlayer
 local char = plr.Character or plr.CharacterAdded:Wait()
 local hum = char:FindFirstChildOfClass("Humanoid") or char:WaitForChild("Humanoid")
@@ -2247,6 +2247,23 @@ window_funny.toggle("点击有惊喜",false,function(val)
     game.Players.LocalPlayer:Kick("新年快乐")
 end)
 
+window_player.button("穿墙",false,function(Value)
+    local Workspace = game:GetService("Workspace")
+local Players = game:GetService("Players")
+local Clipon = Value
+Stepped = game:GetService("RunService").Stepped:Connect(function()
+	if not Clipon == false then
+		for a, b in pairs(Workspace:GetChildren()) do
+        if b.Name == Players.LocalPlayer.Name then
+        for i, v in pairs(Workspace[Players.LocalPlayer.Name]:GetChildren()) do
+        if v:IsA("BasePart") then
+        v.CanCollide = false
+        end end end end
+	else
+		Stepped:Disconnect()
+	end
+end)
+end)
 
 window_player.toggle("光线",false,function(val)
     flags.light = val
@@ -2611,7 +2628,7 @@ window_misc.toggle("rush来前提示",false,function(val)
                 repeat task.wait() until plr:DistanceFromCharacter(v:GetPivot().Position) < 1000 or not v:IsDescendantOf(workspace)
                 
                 if v:IsDescendantOf(workspace) then
-                    message(v.Name:gsub("Moving",""):lower().."rush来了快躲起来")
+                    message(v.Name:gsub("Moving",""):lower().."来了快躲起来")
                 end
             end
         end) 
@@ -2720,7 +2737,7 @@ window_misc.toggle("自动寻找",false,function(val)
 end)
 
 
-window_mis.toggle("disable seek chase",false,function(val)
+window_misc.toggle("让seek生成不出来",false,function(val)
     flags.noseek = val
     
     if val then
@@ -2738,7 +2755,7 @@ window_mis.toggle("disable seek chase",false,function(val)
     end
 end)
 
-window_mis.toggle("delete gates",false,function(val)
+window_misc.toggle("删除大门",false,function(val)
     flags.nogates = val
     
     if val then
@@ -2760,7 +2777,7 @@ window_mis.toggle("delete gates",false,function(val)
     end
 end)
 
-window_mis.toggle("delete puzzle door",false,function(val)
+window_misc.toggle("删除拼画门",false,function(val)
     flags.nopuzzle = val
     
     if val then
@@ -2786,7 +2803,7 @@ end)
 local screechremote = entityinfo:FindFirstChild("Screech")
 
 if screechremote then
-    window_mis.toggle("harmless screech",false,function(val)
+    window_misc.toggle("免疫喜欢叫的东西伤害“",false,function(val)
         flags.noscreech = val
         
         if val then
@@ -2797,7 +2814,7 @@ if screechremote then
     end)
 end
 
-window_mis.toggle("no skeleton doors",false,function(val)
+window_misc.toggle("没有骨架门",false,function(val)
     flags.noskeledoors = val
     
     if val then
@@ -2815,7 +2832,7 @@ window_mis.toggle("no skeleton doors",false,function(val)
     end
 end)
 
-window_mis.toggle("auto library code",false,function(val)
+window_misc.toggle("自动得到图书馆密码",false,function(val)
     flags.getcode = val
     
     if val then
@@ -2850,9 +2867,9 @@ window_mis.toggle("auto library code",false,function(val)
                 local code = table.concat(deciphercode())
                 
                 if code:find("_") then
-                    message("get all hints first")
+                    message("先拿到所有书")
                 else
-                    message("the code is ".. code)
+                    message("密码是 ".. code)
                 end
             end
         end)
@@ -2915,7 +2932,7 @@ if game.ReplicatedStorage:WaitForChild("GameData"):WaitForChild("Floor").Value =
         end
     end)
     
-    window_rooms.toggle("auto a-1000",false,function(val)
+    window_rooms.toggle("自动过a1000",false,function(val)
         flags.autorooms = val
         
         if val then
