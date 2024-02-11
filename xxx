@@ -407,7 +407,7 @@ if game.Players.LocalPlayer.Name == "hufdvurd11" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "" then 
+if game.Players.LocalPlayer.Name == "SLYXCLTMKKGk" then 
 Whitelisted = true 
 end
 
