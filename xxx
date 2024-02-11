@@ -11,7 +11,7 @@ local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 
 local Whitelisted = false;
 
-if game.Players.LocalPlayer.Name == "玩家用户名1" then 
+if game.Players.LocalPlayer.Name == "sansksnxbjdb" then 
 Whitelisted = true 
 end
 
