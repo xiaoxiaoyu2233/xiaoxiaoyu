@@ -11,27 +11,15 @@ local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 
 local Whitelisted = false;
 
-if game.Players.LocalPlayer.Name == "Kctwbsyl" then 
-Whitelisted = true 
-end
-
-if game.Players.LocalPlayer.Name == "zxl200826yyds" then 
-Whitelisted = true 
-end
-
-if game.Players.LocalPlayer.Name == "kkjsm777" then 
-Whitelisted = true 
-end
-
-if game.Players.LocalPlayer.Name == "zip_zaq" then 
-Whitelisted = true 
-end
-
 if game.Players.LocalPlayer.Name == "sansksnxbjdb" then 
 Whitelisted = true 
 end
 
 if game.Players.LocalPlayer.Name == "jOKskdJp4XrW9Kt" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "wxdyyds1" then 
 Whitelisted = true 
 end
 
@@ -447,15 +435,23 @@ if game.Players.LocalPlayer.Name == "kexigaod" then
 Whitelisted = true 
 end
 
+if game.Players.LocalPlayer.Name == "Kctwbsyl" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zxl200826yyds" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "kkjsm777" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zip_zaq" then 
+Whitelisted = true 
+end
+
 if game.Players.LocalPlayer.Name == "wxdyyds1" then 
-Whitelisted = true 
-end
-
-if game.Players.LocalPlayer.Name == "x" then 
-Whitelisted = true 
-end
-
-if game.Players.LocalPlayer.Name == "x" then 
 Whitelisted = true 
 end
 
@@ -3471,4 +3467,4 @@ end)
 
    else
        game.Players.LocalPlayer:Kick("5毛一个名额")--踢人函数
-   end
+   en
