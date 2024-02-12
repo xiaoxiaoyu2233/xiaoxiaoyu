@@ -474,7 +474,6 @@ end
 if game.Players.LocalPlayer.Name == "x" then 
 Whitelisted = true 
 end
-hubailin123
 
 if Whitelisted == true then
 
