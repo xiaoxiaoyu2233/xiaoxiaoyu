@@ -1,4 +1,490 @@
-local vu = game:GetService("VirtualUser")
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "白名单认证",
+    Text = "白名单验证...",
+    Duration = 3, --时间
+})
+
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+local Whitelisted = false;
+
+if game.Players.LocalPlayer.Name == "sansksnxbjdb" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "jOKskdJp4XrW9Kt" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "wxdyyds1" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "dujianjjjjjj" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "vcgfd9" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "pichenghhh_i" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "dashenyyds" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "JiuYita" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ifw215" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "123yyds45" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ffghjhfjf2" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "jOKskdJp4XrW9Kt" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "dujianjjjj" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ddddfDSDC" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ceshi666" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "max_nn227" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "tapqnd" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "vpn_kerot" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ikng_NoOb3" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sbsbcnm114" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "lhxxxxxxxx" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "lovejingru" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "wsbbhhhhhhhhhh" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "4v5n7n" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zhao1234_8" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "nxihendi" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "KSXuHal" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ngbdbfdf3" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "yunbuyan" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "xichenshuo2" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "neigedog" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "hpk2006hpk" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ikun5112" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sanren210" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "xuxuemo" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "KWERGDAJZD" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zyz15679461589" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "liangjiayi20" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ughIDGghhc" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "123yyds45" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sjjhcja" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "mesbme" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "nbbx222" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "tcuhcugxug" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "qw87656" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "helplessnesso" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sun1234sun123455" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sjjhcja123" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "yhhdhda" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ikuncnmb0" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "xuxuemo1" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ifw215n" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Rakky110409" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ddddfDSDC" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Chinese_254" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Diaodes1145140" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "BianGGOOO" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "china_5643" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "cyyfdrsegc" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "SLYXCLTMKKGk" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "IKUNDOSM" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "awaw577" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "jchgcjt" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "241088736zxcv" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "123dryrud" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "cuimingxin" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "jjjjkkmmdjgjfm" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "helplessnesso" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "MoLulishan" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "CN_xax" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "rgxbuzh" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "16434sueididhs" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "114514ABCdy" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zxc827591221" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "3649ppjdnss" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "GuangmingRabbit" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "xiao3hao" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "liyiji1m73" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ql777po" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sjnnhaa" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "kart114514noob1" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "114514ABCdy" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zxc827591221" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "3649ppjdnss" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "GuangmingRabbit" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "xiao3hao" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "liyiji1m73" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ql777po" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sjnnhaa" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "kart114514noob1" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "FLASTUPDATE" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "123123yis" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "dog_furry6" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "HXB20111" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "1145145pppppp" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sansxiangshuijiao" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "xuxuemo" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Wither_A10" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zbcnmb" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "hufdvurd11" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "SLYXCLTMKKGk" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "q648e" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Sz133548" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Hamstermom321" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "djjsbxzx" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "kexigaod" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Kctwbsyl" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zxl200826yyds" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "kkjsm777" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "zip_zaq" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "nxihendi" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "cxkdlqb" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Dhtcbjffnnch" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "hubailin123" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "CN_Dfaer" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "x" then 
+Whitelisted = true 
+end
+
+if Whitelisted == true then
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "白名单认证",
+    Text = "玩家:"..game.Players.LocalPlayer.Name.."，你好小小鱼脚本用户",
+    Duration = 9, --时间
+}) 
+   
+  local vu = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
     vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     wait(1)
@@ -2983,3 +3469,9 @@ CopyDiscordServer.MouseButton1Down:connect(function()
         Duration = 5;
     })
 end)
+
+
+
+   else
+       game.Players.LocalPlayer:Kick("5毛一个名额")--踢人函数
+   end
