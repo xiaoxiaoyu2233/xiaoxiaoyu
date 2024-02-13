@@ -621,7 +621,7 @@ GalaxyBlock.Selectable = false
 GalaxyBlock.Size = UDim2.new(0, 150, 0, 35)
 GalaxyBlock.AutoButtonColor = false
 GalaxyBlock.Font = Enum.Font.SourceSans
-GalaxyBlock.Text = "待定"
+GalaxyBlock.Text = "彩虹朋友"
 GalaxyBlock.TextColor3 = Color3.fromRGB(255, 255, 255)
 GalaxyBlock.TextSize = 28.000
  
@@ -3456,7 +3456,91 @@ end)
  
 GalaxyBlock.MouseButton1Click:connect(function()
     for i=1, open_box.Text do --This number means that you'll get 100 gears (you can change this)
-        
+        local library = loadstring(game:HttpGet('https://pastebin.com/raw/vPWzQEC8'))()
+
+local window_c = library.window("玩家")
+local window_a = library.window("功能")
+local window_b = library.window("标记")
+
+window_b.button("标记玩家",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
+end)
+
+window_b.button("标记怪物",function()
+    for index, monster in pairs(workspace.Monsters:GetChildren()) do
+	if not monster:FindFirstChild("monster") then
+	      local Highlight = Instance.new("Highlight")
+    Highlight.Name = "monster"
+    Highlight.Parent = monster
+       Highlight.FillTransparency = 0.5
+	elseif  monster:FindFirstChild("monster") then
+	   
+   monster:FindFirstChild("monster").OutlineColor = _G.ESPColor
+    end
+end
+print("h")	
+end)
+
+window_b.button("标记物品",function()
+for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+ if v:FindFirstChild("TouchTrigger") and not v:FindFirstChild("ILoveYoutubersStealingMyScripts")  then
+    local Highlight = Instance.new("Highlight")
+    Highlight.Name = "ILoveYoutubersStealingMyScripts"
+    Highlight.Parent = v
+    Highlight.Enabled = true
+            Highlight.FillTransparency = 0.5
+ elseif  v:FindFirstChild("ILoveYoutubersStealingMyScripts")  then
+            v["ILoveYoutubersStealingMyScripts"].OutlineColor = _G.ESPColor
+ else
+        for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+ if v:FindFirstChild("TouchTrigger") and  v:FindFirstChild("ILoveYoutubersStealingMyScripts")  then
+     v:FindFirstChild("ILoveYoutubersStealingMyScripts"):Destroy()
+ end
+ end
+ end
+ end
+end)
+
+window_a.button("关闭脚本",function()
+    flags = DELFLAGS
+    
+    task.wait()
+    library.delete()
+end)
+
+window_a.button("得到任务物品",function()
+attempts = 0
+   for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+ if v:FindFirstChild("TouchTrigger") and attempts < 10 then
+     attempts = attempts + 1
+       firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,v.TouchTrigger,0)
+ 
+   end
+end
+end)
+
+window_a.button("放置背包任务物品",function()
+game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true)
+firetouchinterest(game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true), game.Players.LocalPlayer.Character.HumanoidRootPart, 0)
+task.wait()
+firetouchinterest(game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true), game.Players.LocalPlayer.Character.HumanoidRootPart, 1)
+end)
+
+window_c.button("速度50",function()
+    game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = 50
+end)
+
+window_c.button("无限跳",function()
+    player.Character.Humanoid.JumpPower = 50
+player.Character.Humanoid.UseJumpPower = true
+wait(1)
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
     end
 end)
  
