@@ -508,7 +508,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 end)
  
 game.StarterGui:SetCore("SendNotification", {
-    Title = "永久免费";
+    Title = "你好付费用户";
     Text = "喜欢跑路的作者"; -- what the text says (ofc)
     Duration = 5;
 })
@@ -701,7 +701,7 @@ lable_discord.BackgroundTransparency = 1.000
 lable_discord.Position = UDim2.new(0.531428576, 0, 0.533333361, 0)
 lable_discord.Size = UDim2.new(0, 194, 0, 53)
 lable_discord.Font = Enum.Font.SourceSans
-lable_discord.Text = "免费的脚本不需要钱"
+lable_discord.Text = "付费的脚本"
 lable_discord.TextColor3 = Color3.fromRGB(0, 170, 0)
 lable_discord.TextScaled = true
 lable_discord.TextSize = 28.000
