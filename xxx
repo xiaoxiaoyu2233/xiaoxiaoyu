@@ -479,7 +479,7 @@ if game.Players.LocalPlayer.Name == "GuangmingRabbit" then
 Whitelisted = true 
 end
 
-if game.Players.LocalPlayer.Name == "x" then 
+if game.Players.LocalPlayer.Name == "CNdabaix" then 
 Whitelisted = true 
 end
 
