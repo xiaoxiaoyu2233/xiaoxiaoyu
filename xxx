@@ -58,7 +58,7 @@ setclipboard("553048001")
       local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "检测结果",
-    Text = "已自动复制QQ群群号，请加入并购买",
+    Text = "你没白名单已自动复制QQ群群号，请加入并购买",
     Duration = 5,
 })
 end
