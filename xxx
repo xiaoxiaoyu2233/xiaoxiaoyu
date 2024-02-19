@@ -12,7 +12,7 @@ elseif a=="guo_china"then
 _G.whitelisted=true
 elseif a=="dog_furry6"then
 _G.whitelisted=true
-elseif a=="jzjzjzjzjsjsjajuuhz"then
+elseif a=="ZL991205"then
 _G.whitelisted=true
 elseif a=="19870715a"then
 _G.whitelisted=true
