@@ -6,7 +6,7 @@ if a=="dujianjjjj"then
 _G.whitelisted=true
 elseif a=="dujianjjjjjj"then
 _G.whitelisted=true
-elseif a=="Hamstermom31"then
+elseif a=="Hamstermom321"then
 _G.whitelisted=true
 elseif a=="guo_china"then
 _G.whitelisted=true
