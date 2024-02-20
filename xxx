@@ -22,9 +22,9 @@ elseif a=="laojiangl"then
 _G.whitelisted=true
 elseif a=="longyinyiemao6233"then
 _G.whitelisted=true
-elseif a=="jgkgbkd"then
+elseif a=="lr_1994"then
 _G.whitelisted=true
-elseif a=="yjy880621"then
+elseif a=="yjy"then
 _G.whitelisted=true
 elseif a=="zy031107"then
 _G.whitelisted=true
