@@ -1,1 +1,1983 @@
-
+local function createGui(parent)
+	--ScreenGui1--
+	local ScreenGui1 = Instance.new("ScreenGui",parent)
+	ScreenGui1["Name"] = "鱼汤制作"
+	ScreenGui1["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
+	----ScreenGui1----
+	--Frame2--
+	local Frame2 = Instance.new("Frame",ScreenGui1)
+	Frame2["Size"] = UDim2.new(0, 474, 0, 22)
+	Frame2["BackgroundTransparency"] = 1
+	Frame2["Position"] = UDim2.new(0.26974383, 0, 0.230188683, 0)
+	Frame2["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame2["Name"] = "aaa"
+	Frame2["BorderSizePixel"] = 0
+	Frame2["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame2----
+	--Frame3--
+	local Frame3 = Instance.new("Frame",Frame2)
+	Frame3["Size"] = UDim2.new(0, 474, 0, 327)
+	Frame3["BackgroundTransparency"] = 0.800000011920929
+	Frame3["Position"] = UDim2.new(-0.000189543774, 0, 0.979833424, 0)
+	Frame3["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame3["Name"] = "主体"
+	Frame3["BorderSizePixel"] = 0
+	Frame3["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame3----
+	--UIGradient4--
+	local UIGradient4 = Instance.new("UIGradient",Frame3)
+	UIGradient4["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.235593,Color3.new(1,1,0)),
+		ColorSequenceKeypoint.new(0.486441,Color3.new(1,0,0)),
+		ColorSequenceKeypoint.new(0.80678,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient4----
+	--Script5--
+	local Script5 = Instance.new("Script",UIGradient4)
+	Script5["Name"] = "流动"
+	----Script5----
+	--ScrollingFrame6--
+	local ScrollingFrame6 = Instance.new("ScrollingFrame",Frame3)
+	ScrollingFrame6["ScrollBarImageColor3"] = Color3.new(0.333333, 1, 1)
+	ScrollingFrame6["Active"] = true
+	ScrollingFrame6["BorderColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame6["ScrollBarThickness"] = 66
+	ScrollingFrame6["Name"] = "按钮"
+	ScrollingFrame6["CanvasSize"] = UDim2.new(0, 9, 0, 9)
+	ScrollingFrame6["Size"] = UDim2.new(0, 54, 0, 327)
+	ScrollingFrame6["BackgroundTransparency"] = 1
+	ScrollingFrame6["BorderSizePixel"] = 0
+	ScrollingFrame6["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame6----
+	--TextButton7--
+	local TextButton7 = Instance.new("TextButton",ScrollingFrame6)
+	TextButton7["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton7["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton7["Text"] = "刃与球"
+	TextButton7["TextSize"] = 23
+	TextButton7["Font"] = Enum.Font.SourceSansBold
+	TextButton7["BackgroundTransparency"] = 1
+	TextButton7["Position"] = UDim2.new(0, 0, 0.269113153, 0)
+	TextButton7["Name"] = "刃与球"
+	TextButton7["Size"] = UDim2.new(0, 50, 0, 44)
+	TextButton7["BorderSizePixel"] = 0
+	TextButton7["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton7----
+	--Script8--
+	local Script8 = Instance.new("Script",TextButton7)
+	----Script8----
+	--UIStroke9--
+	local UIStroke9 = Instance.new("UIStroke",TextButton7)
+	UIStroke9["Color"] = Color3.new(0, 1, 1)
+	UIStroke9["Thickness"] = 0.800000011920929
+	----UIStroke9----
+	--UIGradient10--
+	local UIGradient10 = Instance.new("UIGradient",UIStroke9)
+	UIGradient10["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient10----
+	--Script11--
+	local Script11 = Instance.new("Script",UIGradient10)
+	Script11["Name"] = "流动"
+	----Script11----
+	--Sound12--
+	local Sound12 = Instance.new("Sound",TextButton7)
+	Sound12["Name"] = "列表"
+	----Sound12----
+	--Script13--
+	local Script13 = Instance.new("Script",Sound12)
+	Script13["Name"] = "音"
+	----Script13----
+	--UIListLayout14--
+	local UIListLayout14 = Instance.new("UIListLayout",ScrollingFrame6)
+	UIListLayout14["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+	UIListLayout14["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIListLayout14----
+	--UIStroke15--
+	local UIStroke15 = Instance.new("UIStroke",ScrollingFrame6)
+	UIStroke15["Color"] = Color3.new(0, 1, 1)
+	UIStroke15["Thickness"] = 0.800000011920929
+	----UIStroke15----
+	--UIGradient16--
+	local UIGradient16 = Instance.new("UIGradient",UIStroke15)
+	UIGradient16["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient16----
+	--Script17--
+	local Script17 = Instance.new("Script",UIGradient16)
+	Script17["Name"] = "流动"
+	----Script17----
+	--TextButton18--
+	local TextButton18 = Instance.new("TextButton",ScrollingFrame6)
+	TextButton18["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton18["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton18["Text"] = "evade"
+	TextButton18["Font"] = Enum.Font.SourceSansBold
+	TextButton18["BackgroundTransparency"] = 1
+	TextButton18["TextSize"] = 23
+	TextButton18["Size"] = UDim2.new(0, 50, 0, 44)
+	TextButton18["Name"] = "evade"
+	TextButton18["BorderSizePixel"] = 0
+	TextButton18["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton18----
+	--Script19--
+	local Script19 = Instance.new("Script",TextButton18)
+	----Script19----
+	--UIStroke20--
+	local UIStroke20 = Instance.new("UIStroke",TextButton18)
+	UIStroke20["Color"] = Color3.new(0, 1, 1)
+	UIStroke20["Thickness"] = 0.800000011920929
+	----UIStroke20----
+	--UIGradient21--
+	local UIGradient21 = Instance.new("UIGradient",UIStroke20)
+	UIGradient21["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient21----
+	--Script22--
+	local Script22 = Instance.new("Script",UIGradient21)
+	Script22["Name"] = "流动"
+	----Script22----
+	--Sound23--
+	local Sound23 = Instance.new("Sound",TextButton18)
+	Sound23["Name"] = "列表"
+	----Sound23----
+	--Script24--
+	local Script24 = Instance.new("Script",Sound23)
+	Script24["Name"] = "音"
+	----Script24----
+	--TextButton25--
+	local TextButton25 = Instance.new("TextButton",ScrollingFrame6)
+	TextButton25["TextWrapped"] = true
+	TextButton25["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton25["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton25["Text"] = "彩虹朋友"
+	TextButton25["TextSize"] = 17
+	TextButton25["Font"] = Enum.Font.SourceSansBold
+	TextButton25["BackgroundTransparency"] = 1
+	TextButton25["Position"] = UDim2.new(0, 0, 0.269113153, 0)
+	TextButton25["Name"] = "彩虹朋友"
+	TextButton25["Size"] = UDim2.new(0, 50, 0, 44)
+	TextButton25["BorderSizePixel"] = 0
+	TextButton25["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton25----
+	--Script26--
+	local Script26 = Instance.new("Script",TextButton25)
+	----Script26----
+	--UIStroke27--
+	local UIStroke27 = Instance.new("UIStroke",TextButton25)
+	UIStroke27["Color"] = Color3.new(0, 1, 1)
+	UIStroke27["Thickness"] = 0.800000011920929
+	----UIStroke27----
+	--UIGradient28--
+	local UIGradient28 = Instance.new("UIGradient",UIStroke27)
+	UIGradient28["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient28----
+	--Script29--
+	local Script29 = Instance.new("Script",UIGradient28)
+	Script29["Name"] = "流动"
+	----Script29----
+	--Sound30--
+	local Sound30 = Instance.new("Sound",TextButton25)
+	Sound30["Name"] = "列表"
+	----Sound30----
+	--Script31--
+	local Script31 = Instance.new("Script",Sound30)
+	Script31["Name"] = "音"
+	----Script31----
+	--TextButton32--
+	local TextButton32 = Instance.new("TextButton",ScrollingFrame6)
+	TextButton32["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton32["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton32["Text"] = "暂无"
+	TextButton32["TextSize"] = 23
+	TextButton32["Font"] = Enum.Font.SourceSansBold
+	TextButton32["BackgroundTransparency"] = 1
+	TextButton32["Position"] = UDim2.new(0, 0, 0.269113153, 0)
+	TextButton32["Name"] = "1"
+	TextButton32["Size"] = UDim2.new(0, 50, 0, 44)
+	TextButton32["BorderSizePixel"] = 0
+	TextButton32["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton32----
+	--Script33--
+	local Script33 = Instance.new("Script",TextButton32)
+	----Script33----
+	--UIStroke34--
+	local UIStroke34 = Instance.new("UIStroke",TextButton32)
+	UIStroke34["Color"] = Color3.new(0, 1, 1)
+	UIStroke34["Thickness"] = 0.800000011920929
+	----UIStroke34----
+	--UIGradient35--
+	local UIGradient35 = Instance.new("UIGradient",UIStroke34)
+	UIGradient35["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient35----
+	--Script36--
+	local Script36 = Instance.new("Script",UIGradient35)
+	Script36["Name"] = "流动"
+	----Script36----
+	--Sound37--
+	local Sound37 = Instance.new("Sound",TextButton32)
+	Sound37["Name"] = "列表"
+	----Sound37----
+	--Script38--
+	local Script38 = Instance.new("Script",Sound37)
+	Script38["Name"] = "音"
+	----Script38----
+	--TextButton39--
+	local TextButton39 = Instance.new("TextButton",ScrollingFrame6)
+	TextButton39["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton39["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton39["Text"] = "暂无"
+	TextButton39["TextSize"] = 23
+	TextButton39["Font"] = Enum.Font.SourceSansBold
+	TextButton39["BackgroundTransparency"] = 1
+	TextButton39["Position"] = UDim2.new(0, 0, 0.269113153, 0)
+	TextButton39["Name"] = "2"
+	TextButton39["Size"] = UDim2.new(0, 50, 0, 44)
+	TextButton39["BorderSizePixel"] = 0
+	TextButton39["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton39----
+	--Script40--
+	local Script40 = Instance.new("Script",TextButton39)
+	----Script40----
+	--UIStroke41--
+	local UIStroke41 = Instance.new("UIStroke",TextButton39)
+	UIStroke41["Color"] = Color3.new(0, 1, 1)
+	UIStroke41["Thickness"] = 0.800000011920929
+	----UIStroke41----
+	--UIGradient42--
+	local UIGradient42 = Instance.new("UIGradient",UIStroke41)
+	UIGradient42["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient42----
+	--Script43--
+	local Script43 = Instance.new("Script",UIGradient42)
+	Script43["Name"] = "流动"
+	----Script43----
+	--Sound44--
+	local Sound44 = Instance.new("Sound",TextButton39)
+	Sound44["Name"] = "列表"
+	----Sound44----
+	--Script45--
+	local Script45 = Instance.new("Script",Sound44)
+	Script45["Name"] = "音"
+	----Script45----
+	--TextButton46--
+	local TextButton46 = Instance.new("TextButton",ScrollingFrame6)
+	TextButton46["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton46["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton46["Text"] = "通用区"
+	TextButton46["TextSize"] = 23
+	TextButton46["Font"] = Enum.Font.SourceSansBold
+	TextButton46["BackgroundTransparency"] = 1
+	TextButton46["Position"] = UDim2.new(0, 0, 0.269113153, 0)
+	TextButton46["Name"] = "通用区"
+	TextButton46["Size"] = UDim2.new(0, 50, 0, 44)
+	TextButton46["BorderSizePixel"] = 0
+	TextButton46["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton46----
+	--Script47--
+	local Script47 = Instance.new("Script",TextButton46)
+	----Script47----
+	--UIStroke48--
+	local UIStroke48 = Instance.new("UIStroke",TextButton46)
+	UIStroke48["Color"] = Color3.new(0, 1, 1)
+	UIStroke48["Thickness"] = 0.800000011920929
+	----UIStroke48----
+	--UIGradient49--
+	local UIGradient49 = Instance.new("UIGradient",UIStroke48)
+	UIGradient49["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient49----
+	--Script50--
+	local Script50 = Instance.new("Script",UIGradient49)
+	Script50["Name"] = "流动"
+	----Script50----
+	--Sound51--
+	local Sound51 = Instance.new("Sound",TextButton46)
+	Sound51["Name"] = "列表"
+	----Sound51----
+	--Script52--
+	local Script52 = Instance.new("Script",Sound51)
+	Script52["Name"] = "音"
+	----Script52----
+	--Script53--
+	local Script53 = Instance.new("Script",Frame3)
+	Script53["Name"] = "move1"
+	----Script53----
+	--ScrollingFrame54--
+	local ScrollingFrame54 = Instance.new("ScrollingFrame",Frame3)
+	ScrollingFrame54["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame54["Active"] = true
+	ScrollingFrame54["BorderColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame54["Name"] = "main"
+	ScrollingFrame54["Position"] = UDim2.new(0.135775998, 0, 0, 0)
+	ScrollingFrame54["Size"] = UDim2.new(0, 401, 0, 327)
+	ScrollingFrame54["BackgroundTransparency"] = 1
+	ScrollingFrame54["BorderSizePixel"] = 0
+	ScrollingFrame54["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame54----
+	--Frame55--
+	local Frame55 = Instance.new("Frame",ScrollingFrame54)
+	Frame55["Visible"] = false
+	Frame55["BackgroundTransparency"] = 1
+	Frame55["Position"] = UDim2.new(7.37721138e-08, 0, 0.00169844204, 0)
+	Frame55["Size"] = UDim2.new(0.999999881, 0, 0.998301566, 0)
+	Frame55["Name"] = "blade"
+	Frame55["BackgroundColor3"] = Color3.new(0.137255, 0.137255, 0.137255)
+	----Frame55----
+	--Frame56--
+	local Frame56 = Instance.new("Frame",Frame55)
+	Frame56["BackgroundTransparency"] = 1
+	Frame56["Position"] = UDim2.new(0.0328384042, 0, 0, 0)
+	Frame56["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame56["Size"] = UDim2.new(0, 399, 0, 44)
+	Frame56["BorderSizePixel"] = 0
+	Frame56["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame56----
+	--TextButton57--
+	local TextButton57 = Instance.new("TextButton",Frame56)
+	TextButton57["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton57["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton57["Text"] = "自动防v1"
+	TextButton57["TextSize"] = 18
+	TextButton57["Font"] = Enum.Font.SourceSans
+	TextButton57["BackgroundTransparency"] = 1
+	TextButton57["Position"] = UDim2.new(0.249993578, 0, 6.93581342e-07, 0)
+	TextButton57["Name"] = "自动防v1"
+	TextButton57["Size"] = UDim2.new(0, 62, 0, 43)
+	TextButton57["BorderSizePixel"] = 0
+	TextButton57["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton57----
+	--Script58--
+	local Script58 = Instance.new("Script",TextButton57)
+	----Script58----
+	--UIStroke59--
+	local UIStroke59 = Instance.new("UIStroke",TextButton57)
+	UIStroke59["Color"] = Color3.new(0, 1, 1)
+	UIStroke59["Thickness"] = 0.800000011920929
+	----UIStroke59----
+	--UIGradient60--
+	local UIGradient60 = Instance.new("UIGradient",UIStroke59)
+	UIGradient60["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient60----
+	--Script61--
+	local Script61 = Instance.new("Script",UIGradient60)
+	Script61["Name"] = "流动"
+	----Script61----
+	--Sound62--
+	local Sound62 = Instance.new("Sound",TextButton57)
+	Sound62["Name"] = "点"
+	----Sound62----
+	--Script63--
+	local Script63 = Instance.new("Script",Sound62)
+	Script63["Name"] = "音"
+	----Script63----
+	--TextButton64--
+	local TextButton64 = Instance.new("TextButton",Frame56)
+	TextButton64["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton64["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton64["Text"] = "自动防v2"
+	TextButton64["TextSize"] = 18
+	TextButton64["Font"] = Enum.Font.SourceSans
+	TextButton64["BackgroundTransparency"] = 1
+	TextButton64["Position"] = UDim2.new(0.0411622263, 0, 0, 0)
+	TextButton64["Name"] = "自动防v2"
+	TextButton64["Size"] = UDim2.new(0, 62, 0, 44)
+	TextButton64["BorderSizePixel"] = 0
+	TextButton64["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton64----
+	--Script65--
+	local Script65 = Instance.new("Script",TextButton64)
+	----Script65----
+	--UIStroke66--
+	local UIStroke66 = Instance.new("UIStroke",TextButton64)
+	UIStroke66["Color"] = Color3.new(0, 1, 1)
+	UIStroke66["Thickness"] = 0.800000011920929
+	----UIStroke66----
+	--UIGradient67--
+	local UIGradient67 = Instance.new("UIGradient",UIStroke66)
+	UIGradient67["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient67----
+	--Script68--
+	local Script68 = Instance.new("Script",UIGradient67)
+	Script68["Name"] = "流动"
+	----Script68----
+	--Sound69--
+	local Sound69 = Instance.new("Sound",TextButton64)
+	Sound69["Name"] = "点"
+	----Sound69----
+	--Script70--
+	local Script70 = Instance.new("Script",Sound69)
+	Script70["Name"] = "音"
+	----Script70----
+	--UIListLayout71--
+	local UIListLayout71 = Instance.new("UIListLayout",Frame56)
+	UIListLayout71["VerticalAlignment"] = Enum.VerticalAlignment.Center
+	UIListLayout71["FillDirection"] = Enum.FillDirection.Horizontal
+	UIListLayout71["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIListLayout71----
+	--TextButton72--
+	local TextButton72 = Instance.new("TextButton",Frame56)
+	TextButton72["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton72["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton72["Text"] = "自动防v3"
+	TextButton72["TextSize"] = 18
+	TextButton72["Font"] = Enum.Font.SourceSans
+	TextButton72["BackgroundTransparency"] = 1
+	TextButton72["Position"] = UDim2.new(0.0411622263, 0, 0, 0)
+	TextButton72["Name"] = "自动防v3"
+	TextButton72["Size"] = UDim2.new(0, 62, 0, 44)
+	TextButton72["BorderSizePixel"] = 0
+	TextButton72["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton72----
+	--Script73--
+	local Script73 = Instance.new("Script",TextButton72)
+	----Script73----
+	--UIStroke74--
+	local UIStroke74 = Instance.new("UIStroke",TextButton72)
+	UIStroke74["Color"] = Color3.new(0, 1, 1)
+	UIStroke74["Thickness"] = 0.800000011920929
+	----UIStroke74----
+	--UIGradient75--
+	local UIGradient75 = Instance.new("UIGradient",UIStroke74)
+	UIGradient75["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient75----
+	--Script76--
+	local Script76 = Instance.new("Script",UIGradient75)
+	Script76["Name"] = "流动"
+	----Script76----
+	--Sound77--
+	local Sound77 = Instance.new("Sound",TextButton72)
+	Sound77["Name"] = "点"
+	----Sound77----
+	--Script78--
+	local Script78 = Instance.new("Script",Sound77)
+	Script78["Name"] = "音"
+	----Script78----
+	--TextButton79--
+	local TextButton79 = Instance.new("TextButton",Frame56)
+	TextButton79["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton79["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton79["Text"] = "自动spam"
+	TextButton79["TextSize"] = 18
+	TextButton79["Font"] = Enum.Font.SourceSans
+	TextButton79["BackgroundTransparency"] = 1
+	TextButton79["Position"] = UDim2.new(0.450363189, 0, 0.0113636367, 0)
+	TextButton79["Name"] = "自动spam"
+	TextButton79["Size"] = UDim2.new(0, 62, 0, 43)
+	TextButton79["BorderSizePixel"] = 0
+	TextButton79["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton79----
+	--UIStroke80--
+	local UIStroke80 = Instance.new("UIStroke",TextButton79)
+	UIStroke80["Color"] = Color3.new(0, 1, 1)
+	UIStroke80["Thickness"] = 0.800000011920929
+	----UIStroke80----
+	--UIGradient81--
+	local UIGradient81 = Instance.new("UIGradient",UIStroke80)
+	UIGradient81["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient81----
+	--Script82--
+	local Script82 = Instance.new("Script",UIGradient81)
+	Script82["Name"] = "流动"
+	----Script82----
+	--Script83--
+	local Script83 = Instance.new("Script",TextButton79)
+	----Script83----
+	--Sound84--
+	local Sound84 = Instance.new("Sound",TextButton79)
+	Sound84["Name"] = "点"
+	----Sound84----
+	--Script85--
+	local Script85 = Instance.new("Script",Sound84)
+	Script85["Name"] = "音"
+	----Script85----
+	--TextButton86--
+	local TextButton86 = Instance.new("TextButton",Frame56)
+	TextButton86["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton86["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton86["Text"] = "买刀皮"
+	TextButton86["TextSize"] = 18
+	TextButton86["Font"] = Enum.Font.SourceSans
+	TextButton86["BackgroundTransparency"] = 1
+	TextButton86["Position"] = UDim2.new(0.450363189, 0, 0.0113636367, 0)
+	TextButton86["Name"] = "刀皮"
+	TextButton86["Size"] = UDim2.new(0, 62, 0, 43)
+	TextButton86["BorderSizePixel"] = 0
+	TextButton86["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton86----
+	--UIStroke87--
+	local UIStroke87 = Instance.new("UIStroke",TextButton86)
+	UIStroke87["Color"] = Color3.new(0, 1, 1)
+	UIStroke87["Thickness"] = 0.800000011920929
+	----UIStroke87----
+	--UIGradient88--
+	local UIGradient88 = Instance.new("UIGradient",UIStroke87)
+	UIGradient88["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient88----
+	--Script89--
+	local Script89 = Instance.new("Script",UIGradient88)
+	Script89["Name"] = "流动"
+	----Script89----
+	--Script90--
+	local Script90 = Instance.new("Script",TextButton86)
+	----Script90----
+	--Sound91--
+	local Sound91 = Instance.new("Sound",TextButton86)
+	Sound91["Name"] = "点"
+	----Sound91----
+	--Script92--
+	local Script92 = Instance.new("Script",Sound91)
+	Script92["Name"] = "音"
+	----Script92----
+	--Frame93--
+	local Frame93 = Instance.new("Frame",ScrollingFrame54)
+	Frame93["Visible"] = false
+	Frame93["BackgroundTransparency"] = 1
+	Frame93["Size"] = UDim2.new(0.999999702, 0, 1, 0)
+	Frame93["Name"] = "evade"
+	Frame93["BackgroundColor3"] = Color3.new(0.137255, 0.137255, 0.137255)
+	----Frame93----
+	--Frame94--
+	local Frame94 = Instance.new("Frame",Frame93)
+	Frame94["BackgroundTransparency"] = 1
+	Frame94["Position"] = UDim2.new(0.0328384452, 0, 0.0672782883, 0)
+	Frame94["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame94["Size"] = UDim2.new(0, 388, 0, 44)
+	Frame94["BorderSizePixel"] = 0
+	Frame94["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame94----
+	--TextButton95--
+	local TextButton95 = Instance.new("TextButton",Frame94)
+	TextButton95["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton95["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton95["Text"] = "自动复活"
+	TextButton95["TextSize"] = 18
+	TextButton95["Font"] = Enum.Font.SourceSans
+	TextButton95["BackgroundTransparency"] = 1
+	TextButton95["Position"] = UDim2.new(0.0411622263, 0, 0, 0)
+	TextButton95["Name"] = "自动复活"
+	TextButton95["Size"] = UDim2.new(0, 62, 0, 44)
+	TextButton95["BorderSizePixel"] = 0
+	TextButton95["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton95----
+	--Script96--
+	local Script96 = Instance.new("Script",TextButton95)
+	----Script96----
+	--UIStroke97--
+	local UIStroke97 = Instance.new("UIStroke",TextButton95)
+	UIStroke97["Color"] = Color3.new(0, 1, 1)
+	UIStroke97["Thickness"] = 0.800000011920929
+	----UIStroke97----
+	--UIGradient98--
+	local UIGradient98 = Instance.new("UIGradient",UIStroke97)
+	UIGradient98["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient98----
+	--Script99--
+	local Script99 = Instance.new("Script",UIGradient98)
+	Script99["Name"] = "流动"
+	----Script99----
+	--Sound100--
+	local Sound100 = Instance.new("Sound",TextButton95)
+	Sound100["Name"] = "点"
+	----Sound100----
+	--Script101--
+	local Script101 = Instance.new("Script",Sound100)
+	Script101["Name"] = "音"
+	----Script101----
+	--UIListLayout102--
+	local UIListLayout102 = Instance.new("UIListLayout",Frame94)
+	UIListLayout102["VerticalAlignment"] = Enum.VerticalAlignment.Center
+	UIListLayout102["FillDirection"] = Enum.FillDirection.Horizontal
+	UIListLayout102["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIListLayout102----
+	--TextButton103--
+	local TextButton103 = Instance.new("TextButton",Frame94)
+	TextButton103["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton103["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton103["Text"] = "复活"
+	TextButton103["TextSize"] = 18
+	TextButton103["Font"] = Enum.Font.SourceSans
+	TextButton103["BackgroundTransparency"] = 1
+	TextButton103["Position"] = UDim2.new(0.249993578, 0, 6.93581342e-07, 0)
+	TextButton103["Name"] = "复活"
+	TextButton103["Size"] = UDim2.new(0, 62, 0, 43)
+	TextButton103["BorderSizePixel"] = 0
+	TextButton103["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton103----
+	--Script104--
+	local Script104 = Instance.new("Script",TextButton103)
+	----Script104----
+	--UIStroke105--
+	local UIStroke105 = Instance.new("UIStroke",TextButton103)
+	UIStroke105["Color"] = Color3.new(0, 1, 1)
+	UIStroke105["Thickness"] = 0.800000011920929
+	----UIStroke105----
+	--UIGradient106--
+	local UIGradient106 = Instance.new("UIGradient",UIStroke105)
+	UIGradient106["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient106----
+	--Script107--
+	local Script107 = Instance.new("Script",UIGradient106)
+	Script107["Name"] = "流动"
+	----Script107----
+	--Sound108--
+	local Sound108 = Instance.new("Sound",TextButton103)
+	Sound108["Name"] = "点"
+	----Sound108----
+	--Script109--
+	local Script109 = Instance.new("Script",Sound108)
+	Script109["Name"] = "音"
+	----Script109----
+	--Frame110--
+	local Frame110 = Instance.new("Frame",ScrollingFrame54)
+	Frame110["Visible"] = false
+	Frame110["BackgroundTransparency"] = 1
+	Frame110["Position"] = UDim2.new(7.37721138e-08, 0, 0.00169844204, 0)
+	Frame110["Size"] = UDim2.new(0.999999881, 0, 0.998301566, 0)
+	Frame110["Name"] = "friend"
+	Frame110["BackgroundColor3"] = Color3.new(0.137255, 0.137255, 0.137255)
+	----Frame110----
+	--Frame111--
+	local Frame111 = Instance.new("Frame",Frame110)
+	Frame111["BackgroundTransparency"] = 1
+	Frame111["Position"] = UDim2.new(0.0328383632, 0, 0.136147529, 0)
+	Frame111["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame111["Size"] = UDim2.new(0, 399, 0, 36)
+	Frame111["BorderSizePixel"] = 0
+	Frame111["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame111----
+	--TextButton112--
+	local TextButton112 = Instance.new("TextButton",Frame111)
+	TextButton112["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton112["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton112["Text"] = "任务物品"
+	TextButton112["TextSize"] = 18
+	TextButton112["Font"] = Enum.Font.SourceSans
+	TextButton112["BackgroundTransparency"] = 1
+	TextButton112["Position"] = UDim2.new(0.0411622263, 0, 0, 0)
+	TextButton112["Name"] = "任务物品"
+	TextButton112["Size"] = UDim2.new(0, 62, 0, 44)
+	TextButton112["BorderSizePixel"] = 0
+	TextButton112["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton112----
+	--Script113--
+	local Script113 = Instance.new("Script",TextButton112)
+	----Script113----
+	--UIStroke114--
+	local UIStroke114 = Instance.new("UIStroke",TextButton112)
+	UIStroke114["Color"] = Color3.new(0, 1, 1)
+	UIStroke114["Thickness"] = 0.800000011920929
+	----UIStroke114----
+	--UIGradient115--
+	local UIGradient115 = Instance.new("UIGradient",UIStroke114)
+	UIGradient115["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient115----
+	--Script116--
+	local Script116 = Instance.new("Script",UIGradient115)
+	Script116["Name"] = "流动"
+	----Script116----
+	--Sound117--
+	local Sound117 = Instance.new("Sound",TextButton112)
+	Sound117["Name"] = "点"
+	----Sound117----
+	--Script118--
+	local Script118 = Instance.new("Script",Sound117)
+	Script118["Name"] = "音"
+	----Script118----
+	--UIListLayout119--
+	local UIListLayout119 = Instance.new("UIListLayout",Frame111)
+	UIListLayout119["VerticalAlignment"] = Enum.VerticalAlignment.Center
+	UIListLayout119["FillDirection"] = Enum.FillDirection.Horizontal
+	UIListLayout119["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIListLayout119----
+	--TextButton120--
+	local TextButton120 = Instance.new("TextButton",Frame111)
+	TextButton120["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton120["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton120["Text"] = "放置物品"
+	TextButton120["TextSize"] = 18
+	TextButton120["Font"] = Enum.Font.SourceSans
+	TextButton120["BackgroundTransparency"] = 1
+	TextButton120["Position"] = UDim2.new(0.0411622263, 0, 0, 0)
+	TextButton120["Name"] = "放置任务物品"
+	TextButton120["Size"] = UDim2.new(0, 62, 0, 44)
+	TextButton120["BorderSizePixel"] = 0
+	TextButton120["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton120----
+	--Script121--
+	local Script121 = Instance.new("Script",TextButton120)
+	----Script121----
+	--UIStroke122--
+	local UIStroke122 = Instance.new("UIStroke",TextButton120)
+	UIStroke122["Color"] = Color3.new(0, 1, 1)
+	UIStroke122["Thickness"] = 0.800000011920929
+	----UIStroke122----
+	--UIGradient123--
+	local UIGradient123 = Instance.new("UIGradient",UIStroke122)
+	UIGradient123["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient123----
+	--Script124--
+	local Script124 = Instance.new("Script",UIGradient123)
+	Script124["Name"] = "流动"
+	----Script124----
+	--Sound125--
+	local Sound125 = Instance.new("Sound",TextButton120)
+	Sound125["Name"] = "点"
+	----Sound125----
+	--Script126--
+	local Script126 = Instance.new("Script",Sound125)
+	Script126["Name"] = "音"
+	----Script126----
+	--TextButton127--
+	local TextButton127 = Instance.new("TextButton",Frame111)
+	TextButton127["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton127["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton127["Text"] = "标记物品"
+	TextButton127["TextSize"] = 18
+	TextButton127["Font"] = Enum.Font.SourceSans
+	TextButton127["BackgroundTransparency"] = 1
+	TextButton127["Position"] = UDim2.new(0.450363189, 0, 0.0113636367, 0)
+	TextButton127["Name"] = "标记物品"
+	TextButton127["Size"] = UDim2.new(0, 62, 0, 43)
+	TextButton127["BorderSizePixel"] = 0
+	TextButton127["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton127----
+	--UIStroke128--
+	local UIStroke128 = Instance.new("UIStroke",TextButton127)
+	UIStroke128["Color"] = Color3.new(0, 1, 1)
+	UIStroke128["Thickness"] = 0.800000011920929
+	----UIStroke128----
+	--UIGradient129--
+	local UIGradient129 = Instance.new("UIGradient",UIStroke128)
+	UIGradient129["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient129----
+	--Script130--
+	local Script130 = Instance.new("Script",UIGradient129)
+	Script130["Name"] = "流动"
+	----Script130----
+	--Script131--
+	local Script131 = Instance.new("Script",TextButton127)
+	----Script131----
+	--Sound132--
+	local Sound132 = Instance.new("Sound",TextButton127)
+	Sound132["Name"] = "点"
+	----Sound132----
+	--Script133--
+	local Script133 = Instance.new("Script",Sound132)
+	Script133["Name"] = "音"
+	----Script133----
+	--TextButton134--
+	local TextButton134 = Instance.new("TextButton",Frame111)
+	TextButton134["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton134["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton134["Text"] = "标记怪物"
+	TextButton134["TextSize"] = 18
+	TextButton134["Font"] = Enum.Font.SourceSans
+	TextButton134["BackgroundTransparency"] = 1
+	TextButton134["Position"] = UDim2.new(0.450363189, 0, 0.0113636367, 0)
+	TextButton134["Name"] = "标记怪物"
+	TextButton134["Size"] = UDim2.new(0, 62, 0, 43)
+	TextButton134["BorderSizePixel"] = 0
+	TextButton134["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton134----
+	--UIStroke135--
+	local UIStroke135 = Instance.new("UIStroke",TextButton134)
+	UIStroke135["Color"] = Color3.new(0, 1, 1)
+	UIStroke135["Thickness"] = 0.800000011920929
+	----UIStroke135----
+	--UIGradient136--
+	local UIGradient136 = Instance.new("UIGradient",UIStroke135)
+	UIGradient136["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient136----
+	--Script137--
+	local Script137 = Instance.new("Script",UIGradient136)
+	Script137["Name"] = "流动"
+	----Script137----
+	--Script138--
+	local Script138 = Instance.new("Script",TextButton134)
+	----Script138----
+	--Sound139--
+	local Sound139 = Instance.new("Sound",TextButton134)
+	Sound139["Name"] = "点"
+	----Sound139----
+	--Script140--
+	local Script140 = Instance.new("Script",Sound139)
+	Script140["Name"] = "音"
+	----Script140----
+	--Frame141--
+	local Frame141 = Instance.new("Frame",ScrollingFrame54)
+	Frame141["Visible"] = false
+	Frame141["BackgroundTransparency"] = 1
+	Frame141["Position"] = UDim2.new(7.37721138e-08, 0, 0.00169844204, 0)
+	Frame141["Size"] = UDim2.new(0.999999881, 0, 0.998301566, 0)
+	Frame141["Name"] = "all"
+	Frame141["BackgroundColor3"] = Color3.new(0.137255, 0.137255, 0.137255)
+	----Frame141----
+	--UIStroke142--
+	local UIStroke142 = Instance.new("UIStroke",Frame3)
+	UIStroke142["Color"] = Color3.new(0, 1, 1)
+	UIStroke142["Thickness"] = 1.600000023841858
+	----UIStroke142----
+	--UIGradient143--
+	local UIGradient143 = Instance.new("UIGradient",UIStroke142)
+	UIGradient143["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0,1,1)),
+		ColorSequenceKeypoint.new(0.491525,Color3.new(0.666667,0,1)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.333333,1,0))
+	}
+	----UIGradient143----
+	--Script144--
+	local Script144 = Instance.new("Script",UIGradient143)
+	Script144["Name"] = "流动"
+	----Script144----
+	--Frame145--
+	local Frame145 = Instance.new("Frame",Frame3)
+	Frame145["Size"] = UDim2.new(0, 417, 0, 34)
+	Frame145["BackgroundTransparency"] = 0.8999999761581421
+	Frame145["Position"] = UDim2.new(0.120253168, 0, 0.896024466, 0)
+	Frame145["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame145["Name"] = "公告"
+	Frame145["BorderSizePixel"] = 0
+	Frame145["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame145----
+	--TextLabel146--
+	local TextLabel146 = Instance.new("TextLabel",Frame145)
+	TextLabel146["Font"] = Enum.Font.ArialBold
+	TextLabel146["BackgroundTransparency"] = 1
+	TextLabel146["Position"] = UDim2.new(1, 0, 3.59030332e-06, 0)
+	TextLabel146["LineHeight"] = 2.0199999809265137
+	TextLabel146["Text"] = "公告"
+	TextLabel146["TextSize"] = 44
+	TextLabel146["Size"] = UDim2.new(-1, 0, 0.999996185, 0)
+	----TextLabel146----
+	--Script147--
+	local Script147 = Instance.new("Script",TextLabel146)
+	----Script147----
+	--ImageButton148--
+	local ImageButton148 = Instance.new("ImageButton",ScreenGui1)
+	ImageButton148["Image"] = "rbxassetid://16971947783"
+	ImageButton148["Name"] = "我"
+	ImageButton148["Position"] = UDim2.new(0.208369046, 0, 0.311983705, 0)
+	ImageButton148["BorderColor3"] = Color3.new(0, 0, 0)
+	ImageButton148["Size"] = UDim2.new(0, 58, 0, 81)
+	ImageButton148["BorderSizePixel"] = 0
+	ImageButton148["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ImageButton148----
+	--Script149--
+	local Script149 = Instance.new("Script",ImageButton148)
+	Script149["Name"] = "open"
+	----Script149----
+	--Script150--
+	local Script150 = Instance.new("Script",ImageButton148)
+	Script150["Name"] = "move1"
+	----Script150----
+	--UICorner151--
+	local UICorner151 = Instance.new("UICorner",ImageButton148)
+	UICorner151["CornerRadius"] = UDim.new(99, 999)
+	----UICorner151----
+	--Sound152--
+	local Sound152 = Instance.new("Sound",ImageButton148)
+	Sound152["Name"] = "乐"
+	----Sound152----
+	--Script153--
+	local Script153 = Instance.new("Script",Sound152)
+	Script153["Name"] = "音"
+	----Script153----
+	spawn(function() --Source for Script5
+		local script = Script5
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script8
+		local script = Script8
+		local Button = script.Parent
+		local Buttons = script.Parent.Parent
+		
+		local main = script.Parent.Parent.Parent.main
+		local blade = main.blade
+		
+		Button.MouseButton1Click:Connect(function()
+			blade.Visible = true
+		end)
+	end)
+	spawn(function() --Source for Script11
+		local script = Script11
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script13
+		local script = Script13
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+		end)
+	end)
+	spawn(function() --Source for Script17
+		local script = Script17
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script19
+		local script = Script19
+		local Button = script.Parent
+		local Buttons = script.Parent.Parent
+		
+		local main = script.Parent.Parent.Parent.main
+		local evade= main.evade
+		
+		Button.MouseButton1Click:Connect(function()
+			evade.Visible = true
+		end)
+	end)
+	spawn(function() --Source for Script22
+		local script = Script22
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script24
+		local script = Script24
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+		end)
+	end)
+	spawn(function() --Source for Script26
+		local script = Script26
+		local Button = script.Parent
+		local Buttons = script.Parent.Parent
+		
+		local main = script.Parent.Parent.Parent.main
+		local friend = main.friend
+		
+		Button.MouseButton1Click:Connect(function()
+			friend.Visible = true
+		end)
+	end)
+	spawn(function() --Source for Script29
+		local script = Script29
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script31
+		local script = Script31
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+		end)
+	end)
+	spawn(function() --Source for Script33
+		local script = Script33
+		local Button = script.Parent
+		local Buttons = script.Parent.Parent
+		
+		local main = script.Parent.Parent.Parent.main
+		local blade = main.blade
+		
+		Button.MouseButton1Click:Connect(function()
+			blade.Visible = true
+		end)
+	end)
+	spawn(function() --Source for Script36
+		local script = Script36
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script38
+		local script = Script38
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+		end)
+	end)
+	spawn(function() --Source for Script40
+		local script = Script40
+		local Button = script.Parent
+		local Buttons = script.Parent.Parent
+		
+		local main = script.Parent.Parent.Parent.main
+		local blade = main.blade
+		
+		Button.MouseButton1Click:Connect(function()
+			blade.Visible = true
+		end)
+	end)
+	spawn(function() --Source for Script43
+		local script = Script43
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script45
+		local script = Script45
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+		end)
+	end)
+	spawn(function() --Source for Script47
+		local script = Script47
+		local Button = script.Parent
+		local Buttons = script.Parent.Parent
+		
+		local main = script.Parent.Parent.Parent.main
+		local all = main.all
+		
+		Button.MouseButton1Click:Connect(function()
+			all.Visible = true
+		end)
+	end)
+	spawn(function() --Source for Script50
+		local script = Script50
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script52
+		local script = Script52
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+		end)
+	end)
+	spawn(function() --Source for Script53
+		local script = Script53
+		local UIS = game:GetService('UserInputService')
+		local frame = script.Parent
+		
+		local dragToggle = nil
+		local dragSpeed = 0.01
+		local dragStart = nil
+		local startPos = nil
+		
+		local function updateInput(input)
+			local delta = input.Position - dragStart
+			local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+				startPos.Y.Scale, startPos.Y.Offset + delta.Y) 
+			game:GetService('TweenService') :Create(frame, TweenInfo.new(dragSpeed), {Position = position}) :Play()
+		end
+		
+		frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+				print('Click')
+				dragToggle = true
+				dragStart = input.Position
+				startPos = frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						print('Release')
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		
+		UIS.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				if dragToggle then
+					print('Drag')
+					updateInput(input)
+				end
+			end
+		end)
+		
+	end)
+	spawn(function() --Source for Script58
+		local script = Script58
+		local Debug = true
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local Players = game:GetService("Players")
+		local UserInputService = game:GetService("UserInputService")
+		local StarterGui = game:GetService("StarterGui")
+		local Workspace = game:GetService("Workspace")
+		
+		local shared = {
+			mode = 'Always',
+			deflect_type = 'Remote',
+			adjustment = 100, 
+			notifications = true,
+			keybind = Enum.KeyCode.E
+		}
+		
+		local Player = Players.LocalPlayer or Players.PlayerAdded:Wait()
+		local Remotes = ReplicatedStorage:WaitForChild("Remotes", 9e9)
+		local Balls = Workspace.Balls
+		
+		
+		local RETRY_DELAY = 0.35
+		local CLOSE_COMBAT_DELAY = 0.01 
+		local VERY_CLOSE_COMBAT_DELAY = 0 
+		local CLOSE_COMBAT_DISTANCE = 7 
+		local VERY_CLOSE_COMBAT_DISTANCE = 4.75 
+		local MIN_DELAY = 0 
+		
+		
+		
+		local function print(...) 
+			if Debug then
+				warn(...)
+			end
+		end
+		
+		local function VerifyBall(Ball)
+			if typeof(Ball) == "Instance" and Ball:IsA("BasePart") and Ball:IsDescendantOf(Balls) and Ball:GetAttribute("realBall") == true then
+				return true
+			end
+		end
+		
+		local function IsTarget()
+			return (Player.Character and Player.Character:FindFirstChild("Highlight"))
+		end
+		
+		local function Parry()
+			Remotes:WaitForChild("ParryButtonPress"):Fire()
+		end
+		
+		local function BallWasParried(Ball)
+			return Ball:FindFirstChild("Highlight") and Ball.Highlight.FillColor == 255, 0, 0
+		end
+		
+		local function DelayedRetryParry(Ball, delay)
+			wait(delay)
+			if not BallWasParried(Ball) then
+				DeflectBall()
+			end
+		end
+		
+		local function IsPlayerInCloseCombat()
+			local Ball = (#Balls:GetChildren() > 0 and Balls:GetChildren()[1])
+		
+			if Ball then
+				local BallPosition = Ball.Position
+				local PlayerPosition = Player.Character.HumanoidRootPart.Position
+				local Distance = (BallPosition - PlayerPosition).Magnitude
+		
+				return Distance <= CLOSE_COMBAT_DISTANCE
+			end
+		
+			return false
+		end
+		
+		local function IsBallFrozen(Ball)
+			return Ball.Anchored
+		end
+		
+		local function DeflectBall()
+			if IsTarget() and DetectBall() then
+				if shared.deflect_type == 'Key Press' then
+					UserInputService.InputSimulator:KeyDown(shared.keybind)
+					UserInputService.InputSimulator:KeyUp(shared.keybind)
+				else
+					Remotes.ParryButtonPress:Fire()
+				end
+		
+				local delay = RETRY_DELAY
+		
+				if IsPlayerInCloseCombat() then
+					local Ball = (#Balls:GetChildren() > 0 and Balls:GetChildren()[1])
+		
+					if Ball then
+						local BallPosition = Ball.Position
+						local PlayerPosition = Player.Character.HumanoidRootPart.Position
+						local Distance = (BallPosition - PlayerPosition).Magnitude
+		
+						if Distance <= VERY_CLOSE_COMBAT_DISTANCE then
+							delay = VERY_CLOSE_COMBAT_DELAY 
+						elseif Distance <= CLOSE_COMBAT_DISTANCE then
+							delay = CLOSE_COMBAT_DELAY 
+						else
+							delay = MIN_DELAY
+						end
+		
+						if delay == MIN_DELAY then
+							while IsPlayerInCloseCombat() and DetectBall() and IsTarget() do
+								DeflectBall()
+							end
+						else
+							wait(delay)
+							if not BallWasParried(Ball) then
+								DeflectBall()
+							end
+						end
+					end
+				end
+			end
+		end
+		
+		local function DetectBall()
+			local Ball = (#Balls:GetChildren() > 0 and Balls:GetChildren()[1]) or (Balls.ChildAdded:Wait() and Balls:GetChildren()[1])
+		
+			local BallVelocity = Ball.Velocity.Magnitude
+			local BallPosition = Ball.Position
+		
+			local PlayerPosition = Player.Character.HumanoidRootPart.Position
+			local PlayerVelocity = Player.Character.HumanoidRootPart.Velocity.Magnitude
+		
+			local Distance = (BallPosition - PlayerPosition).Magnitude
+			local Adjustment = BallVelocity * (game.Stats.Network.ServerStatsItem["Data Ping"]:GetValue() / 1000)
+		
+			Distance = Distance - Adjustment
+			Distance = Distance - shared.adjustment
+		
+			local Hit = Distance / BallVelocity
+		
+			return Hit <= 0.001
+		end
+		
+		local function Target(Character)
+			Character.ChildAdded:Connect(function(child)
+				if child.Name == "Highlight" then
+					IsTargeted = true
+				end
+			end)
+			Character.ChildRemoved:Connect(function(child)
+				if child.Name == "Highlight" then
+					IsTargeted = false
+				end
+			end)
+		end
+		
+		local function CheckDistance()
+			local IsTargeted = false
+			local CanHit = false
+		
+			while true do
+				if IsPlayerInCloseCombat() then
+					DeflectBall()
+				elseif not IsTargeted or not DetectBall() then
+					RemoteSpamming = false
+					print("你好")
+				else
+					DeflectBall()
+				end
+				wait(0) 
+			end
+		end
+		
+		UserInputService.InputBegan:Connect(function(Input, IsTyping)
+			if IsTyping then return end
+			if shared.mode == 'Toggle' and Input.KeyCode == shared.keybind then
+				CanHit = not CanHit
+				if shared.notifications then
+				end
+			elseif shared.mode == 'Hold' and Input.KeyCode == shared.keybind and shared.notifications then
+			end
+		end)
+		
+		UserInputService.InputEnded:Connect(function(Input, IsTyping)
+			if IsTyping then return end
+			if shared.mode == 'Hold' and Input.KeyCode == shared.keybind and shared.notifications then
+		end)
+		
+		local function Initialize()
+			local character = Player.Character or Player.CharacterAdded:Wait()
+			Target(character)
+		end
+		
+		Initialize()
+		
+		Player.CharacterAdded:Connect(Initialize)
+		
+		Balls.ChildAdded:Connect(function(Ball)
+			if not VerifyBall(Ball) then
+				return
+			end
+		
+			print("Ball Spawned: " .. Ball.Name)
+		
+			if IsTarget() and DetectBall() and IsPlayerInCloseCombat() then
+				DeflectBall()
+			end
+		
+			local OldPosition = Ball.Position
+			local OldTick = tick()
+		
+			Ball:GetPropertyChangedSignal("Position"):Connect(function()
+				if IsTarget() then
+					local Distance = (Ball.Position - Workspace.CurrentCamera.Focus.Position).Magnitude
+					local Velocity = (OldPosition - Ball.Position).Magnitude
+		
+					print("Distance: " .. Distance)
+					print("Velocity: " .. Velocity)
+					print("Time: " .. Distance / Velocity)
+		
+					if (Distance / Velocity) <= 14 then
+						Parry()
+					end
+				end
+		
+				if (tick() - OldTick >= 1/60) then
+					OldTick = tick()
+					OldPosition = Ball.Position
+				end
+			end)
+	end)
+	spawn(function() --Source for Script61
+		local script = Script61
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script63
+		local script = Script63
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script65
+		local script = Script65
+		local Debug = false 
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local Players = game:GetService("Players")
+		
+		local Player = Players.LocalPlayer or Players.PlayerAdded:Wait()
+		local Remotes = ReplicatedStorage:WaitForChild("Remotes", 9e9) 
+		local Balls = workspace:WaitForChild("Balls", 9e9)
+		
+		
+		
+		local function print(...) 
+			if Debug then
+				warn(...)
+			end
+		end
+		
+		local function VerifyBall(Ball) 
+			if typeof(Ball) == "Instance" and Ball:IsA("BasePart") and Ball:IsDescendantOf(Balls) and Ball:GetAttribute("realBall") == true then
+				return true
+			end
+		end
+		
+		local function IsTarget() 
+			return (Player.Character and Player.Character:FindFirstChild("Highlight"))
+		end
+		
+		local function Parry() 
+			Remotes:WaitForChild("ParryButtonPress"):Fire()
+		end
+		
+		
+		Balls.ChildAdded:Connect(function(Ball)
+			if not VerifyBall(Ball) then
+				return
+			end
+		
+			print(`Ball Spawned: {Ball}`)
+		
+			local OldPosition = Ball.Position
+			local OldTick = tick()
+		
+			Ball:GetPropertyChangedSignal("Position"):Connect(function()
+				if IsTarget() then 
+					local Distance = (Ball.Position - workspace.CurrentCamera.Focus.Position).Magnitude
+					local Velocity = (OldPosition - Ball.Position).Magnitude 
+		
+					print(`Distance: {Distance}\nVelocity: {Velocity}\nTime: {Distance / Velocity}`)
+		
+					if (Distance / Velocity) <= 14 then 
+						Parry()
+					end
+				end
+		
+				if (tick() - OldTick >= 1/60) then 
+					OldTick = tick()
+					OldPosition = Ball.Position
+				end
+			end)
+		end)
+	end)
+	spawn(function() --Source for Script68
+		local script = Script68
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script70
+		local script = Script70
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script73
+		local script = Script73
+		local function startAutoParry()
+			local player = game.Players.LocalPlayer
+			local character = player.Character or player.CharacterAdded:Wait()
+			local replicatedStorage = game:GetService("ReplicatedStorage")
+			local runService = game:GetService("RunService")
+			local parryButtonPress = replicatedStorage.Remotes.ParryButtonPress
+			local ballsFolder = workspace:WaitForChild("Balls")
+		
+			local players = game:GetService("Players")
+			local localPlayer = players.LocalPlayer
+		
+			local function printMessage()
+				print("Auto Parry Enabled")
+			end
+			printMessage()
+		
+			local function onCharacterAdded(newCharacter)
+				character = newCharacter
+			end
+		
+			player.CharacterAdded:Connect(onCharacterAdded)
+		
+			local focusedBall = nil  
+		
+			local function chooseNewFocusedBall()
+				local balls = ballsFolder:GetChildren()
+				focusedBall = nil
+				for _, ball in ipairs(balls) do
+					if ball:GetAttribute("realBall") == true then
+						focusedBall = ball
+						break
+					end
+				end
+			end
+		
+			chooseNewFocusedBall()
+		
+			local function timeUntilImpact(ballVelocity, distanceToPlayer, playerVelocity)
+				local directionToPlayer = (character.HumanoidRootPart.Position - focusedBall.Position).Unit
+				local velocityTowardsPlayer = ballVelocity:Dot(directionToPlayer) - playerVelocity:Dot(directionToPlayer)
+		
+				if velocityTowardsPlayer <= 0 then
+					return math.huge
+				end
+		
+				local distanceToBeCovered = distanceToPlayer - 0
+				return distanceToBeCovered / velocityTowardsPlayer
+			end
+		
+			local BASE_THRESHOLD = 0
+			local VELOCITY_SCALING_FACTOR = 0
+		
+			local function getDynamicThreshold(ballVelocityMagnitude)
+				local adjustedThreshold = BASE_THRESHOLD - (ballVelocityMagnitude * VELOCITY_SCALING_FACTOR)
+				return math.max(0, adjustedThreshold)
+			end
+		
+			local function checkBallDistance()
+				if not character:FindFirstChild("Highlight") then return end
+				local charPos = character.PrimaryPart.Position
+				local charVel = character.PrimaryPart.Velocity
+		
+				if focusedBall and not focusedBall.Parent then
+					chooseNewFocusedBall()
+				end
+		
+				if not focusedBall then return end
+		
+				local ball = focusedBall
+				local distanceToPlayer = (ball.Position - charPos).Magnitude
+		
+				if distanceToPlayer < 14 then
+					game.ReplicatedStorage.Remotes.ParryButtonPress:Fire()
+					return
+				end
+		
+				local timeToImpact = timeUntilImpact(ball.Velocity, distanceToPlayer, charVel)
+				local dynamicThreshold = getDynamicThreshold(ball.Velocity.Magnitude)
+		
+				if timeToImpact < dynamicThreshold then
+					parryButtonPress:Fire()
+				end
+			end
+		
+			heartbeatConnection = game:GetService("RunService").Heartbeat:Connect(function()
+				checkBallDistance()
+			end)
+		end
+		
+		local function stopAutoParry()
+			if heartbeatConnection then
+				heartbeatConnection:Disconnect()
+				heartbeatConnection = nil
+			end
+		end
+		startAutoParry()
+	end)
+	spawn(function() --Source for Script76
+		local script = Script76
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script78
+		local script = Script78
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script82
+		local script = Script82
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script83
+		local script = Script83
+		getgenv().AutoDetectSpam = true
+		
+		
+		local Alive = workspace:WaitForChild("Alive", 9e9)
+		local Players = game:GetService("Players")
+		local Player = Players.LocalPlayer
+		
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local Remotes = ReplicatedStorage:WaitForChild("Remotes", 9e9)
+		local ParryAttempt = Remotes:WaitForChild("ParryAttempt", 9e9)
+		local Balls = workspace:WaitForChild("Balls", 9e9)
+		
+		
+		local function get_ProxyPlayer()
+			local Distance = math.huge
+			local plrRP = Player.Character and Player.Character:FindFirstChild("HumanoidRootPart")
+			local PlayerReturn = nil
+		
+			for _,plr1 in pairs(Alive:GetChildren()) do
+				if plr1:FindFirstChild("Humanoid") and plr1.Humanoid.Health > 50 then
+					if plr1.Name ~= Player.Name and plrRP and plr1:FindFirstChild("HumanoidRootPart") then
+						local magnitude = (plr1.HumanoidRootPart.Position - plrRP.Position).Magnitude
+						if magnitude <= Distance then
+							Distance = magnitude
+							PlayerReturn = plr1
+						end
+					end
+				end
+			end
+			return PlayerReturn
+		end
+		
+		local function SuperClick()
+			task.spawn(function()
+				if IsAlive() and #Alive:GetChildren() > 1 then
+					local args1 = 0.5
+					local args2 = CFrame.new()
+					local args3 = {["enzo"] = Vector3.new()}
+					local args4 = {500, 500}
+		
+					if args1 and args2 and args3 and args4 then
+						ParryAttempt:FireServer(args1, args2, args3, args4)
+					end
+				end
+			end)
+		end
+		
+		task.spawn(function()
+			while task.wait() do
+				if getgenv().SpamClickA and getgenv().AutoDetectSpam then
+					SuperClick()
+				end
+			end
+		end)
+		
+		local ParryCounter = 0
+		local DetectSpamDistance = 0
+		
+		local function GetBall(ball)
+			local Target = ""
+		
+			ball:GetPropertyChangedSignal("Position"):Connect(function()
+				local PlayerPP = Player and Player.Character and Player.Character.PrimaryPart
+				local NearestPlayer = get_ProxyPlayer()
+		
+				if ball and PlayerPP and NearestPlayer and NearestPlayer.PrimaryPart then
+					local PlayerDistance = (PlayerPP.Position - NearestPlayer.PrimaryPart.Position).Magnitude
+					local BallDistance = (PlayerPP.Position - ball.Position).Magnitude
+		
+					DetectSpamDistance = 25 + math.clamp(ParryCounter / 3, 0, 25)
+		
+					if ParryCounter > 2 and PlayerDistance < DetectSpamDistance and BallDistance < 55 then
+						getgenv().SpamClickA = true
+					else
+						getgenv().SpamClickA = false
+					end
+				end
+			end)
+			ball:GetAttributeChangedSignal("target"):Connect(function()
+				Target = ball:GetAttribute("target")
+				local NearestPlayer = get_ProxyPlayer()
+		
+				if NearestPlayer then
+					if Target == NearestPlayer.Name or Target == Player.Name then
+						ParryCounter = ParryCounter + 1
+					else
+						ParryCounter = 0
+					end
+				end
+			end)
+		end
+		
+		for _,ball in pairs(Balls:GetChildren()) do
+			if ball and not ball:GetAttribute("realBall") then
+				return
+			end
+		
+			GetBall(ball)
+		end
+		
+		Balls.ChildAdded:Connect(function(ball)
+			if not getgenv().AutoDetectSpam then
+				return
+			elseif ball and not ball:GetAttribute("realBall") then
+				return
+			end
+		
+			getgenv().SpamClickA = false
+			ParryCounter = 0
+			GetBall(ball)
+		end)
+	end)
+	spawn(function() --Source for Script85
+		local script = Script85
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script89
+		local script = Script89
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script90
+		local script = Script90
+		game:GetService("ReplicatedStorage").Remotes.Store.RequestOpenSwordBox:InvokeServer()
+	end)
+	spawn(function() --Source for Script92
+		local script = Script92
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script96
+		local script = Script96
+		task.spawn(function()
+			while task.wait() do
+					if localplayer.Character and localplayer.Character:GetAttribute("Downed") then
+						game:GetService("ReplicatedStorage").Events.Respawn:FireServer()
+					end
+				end
+	end)
+	spawn(function() --Source for Script99
+		local script = Script99
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script101
+		local script = Script101
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script104
+		local script = Script104
+		game:GetService("ReplicatedStorage").Events.Respawn:FireServer()
+	end)
+	spawn(function() --Source for Script107
+		local script = Script107
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script109
+		local script = Script109
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script113
+		local script = Script113
+		attempts = 0
+		for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+			if v:FindFirstChild("TouchTrigger") and attempts < 10 then
+				attempts = attempts + 1
+				firetouchinterest(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,v.TouchTrigger,0)
+		
+			end
+		end
+	end)
+	spawn(function() --Source for Script116
+		local script = Script116
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script118
+		local script = Script118
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script121
+		local script = Script121
+		game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true)
+		firetouchinterest(game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true), game.Players.LocalPlayer.Character.HumanoidRootPart, 0)
+		task.wait()
+		firetouchinterest(game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true), game.Players.LocalPlayer.Character.HumanoidRootPart, 1)
+	end)
+	spawn(function() --Source for Script124
+		local script = Script124
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script126
+		local script = Script126
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script130
+		local script = Script130
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script131
+		local script = Script131
+		for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+			if v:FindFirstChild("TouchTrigger") and not v:FindFirstChild("ILoveYoutubersStealingMyScripts")  then
+				local Highlight = Instance.new("Highlight")
+				Highlight.Name = "ILoveYoutubersStealingMyScripts"
+				Highlight.Parent = v
+				Highlight.Enabled = true
+				Highlight.FillTransparency = 0.5
+			elseif  v:FindFirstChild("ILoveYoutubersStealingMyScripts")  then
+				v["ILoveYoutubersStealingMyScripts"].OutlineColor = _G.ESPColor
+			else
+				for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+					if v:FindFirstChild("TouchTrigger") and  v:FindFirstChild("ILoveYoutubersStealingMyScripts")  then
+						v:FindFirstChild("ILoveYoutubersStealingMyScripts"):Destroy()
+					end
+				end
+			end
+		end
+	end)
+	spawn(function() --Source for Script133
+		local script = Script133
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script137
+		local script = Script137
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script138
+		local script = Script138
+		game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true)
+		firetouchinterest(game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true), game.Players.LocalPlayer.Character.HumanoidRootPart, 0)
+		task.wait()
+		firetouchinterest(game:GetService("Workspace").GroupBuildStructures:FindFirstChild("Trigger", true), game.Players.LocalPlayer.Character.HumanoidRootPart, 1)
+	end)
+	spawn(function() --Source for Script140
+		local script = Script140
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+			wait(1)
+		end)
+	end)
+	spawn(function() --Source for Script144
+		local script = Script144
+		local UIGradient = script.parent
+		while true do
+			UIGradient.Rotation += 3
+			wait()
+		end
+	end)
+	spawn(function() --Source for Script147
+		local script = Script147
+		Sentences = {"有官群的你知道吗？","通用没写懒了","你觉得更新慢的话就给作者马内","你应该做些别的"}
+		while true do 
+		script.Parent.Text = Sentences[math.random(1,#Sentences)]
+		wait(5) 
+		end
+	end)
+	spawn(function() --Source for Script149
+		local script = Script149
+		local frame = script.Parent.Parent.aaa
+		local button = script.Parent
+		local visible = false
+		
+		button.MouseButton1Click:Connect(function()
+			if visible == false then
+				visible = true
+				frame:TweenPosition(UDim2.new(0.319, 0,0.271, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, .3, false)
+			elseif visible == true then
+				visible = false
+				frame:TweenPosition(UDim2.new(-0.991, 0,0.991, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, .3, false)
+			end
+		end)
+	end)
+	spawn(function() --Source for Script150
+		local script = Script150
+		local UIS = game:GetService('UserInputService')
+		local frame = script.Parent
+		
+		local dragToggle = nil
+		local dragSpeed = 0.01
+		local dragStart = nil
+		local startPos = nil
+		
+		local function updateInput(input)
+			local delta = input.Position - dragStart
+			local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+				startPos.Y.Scale, startPos.Y.Offset + delta.Y) 
+			game:GetService('TweenService') :Create(frame, TweenInfo.new(dragSpeed), {Position = position}) :Play()
+		end
+		
+		frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+				print('Click')
+				dragToggle = true
+				dragStart = input.Position
+				startPos = frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						print('Release')
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		
+		UIS.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				if dragToggle then
+					print('Drag')
+					updateInput(input)
+				end
+			end
+		end)
+		
+	end)
+	spawn(function() --Source for Script153
+		local script = Script153
+		script.Parent.Parent.MouseButton1Click:Connect(function()
+			script.Parent:Play()
+		end)
+	end)
+end
+createGui(game.CoreGui) --coregui by default you should but change it
